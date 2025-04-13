@@ -1,0 +1,309 @@
+*{
+    padding:0;
+    margin:0;
+}
+header {
+    background-color:rgba(12, 9, 8, 0.8);
+    height:80px;
+    width:100%;
+    position:fixed; 
+    z-index: 1000; /* 確保 header 位於其他元素之上 */
+}
+h1 {
+    color:white;
+    position:absolute;
+    left:10px;
+    top:0;
+    line-height: 80px;
+    background-image:url(images/logo.png) ;
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: contain;
+    width:500px;
+    text-indent: -9999px; 
+}
+header ul {
+    position:absolute;
+    right:1vw;
+    top:0;
+    line-height:80px;
+}
+header li {
+    display:inline;
+    margin-right:4vw;    
+}
+header a {
+    color:white;
+    text-decoration: none;
+    font-size: 14px; /* 調整字體大小 */
+}
+header a:hover {
+    text-decoration: underline;
+}
+.news {
+    background-color: antiquewhite;
+    color:white;
+    height:95vh;
+    background-image: url("images/blackground.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+} 
+.news h2 {
+    font-size:60px;
+    margin-top:60px;
+} 
+.news p {
+    color:#FEF7E6;
+    font-size:18px;
+    margin:25px 0;
+}
+.news a {
+    color:white;
+    text-decoration: none;
+    border: 1.5px solid #ACACAC;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+#photo  {
+    scroll-margin-top: 100px; /* 根據你的 header 高度調整 */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.diss {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.5); /* 可選：讓前景更清晰 */
+}
+
+.overlay {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.section-title {
+    position: absolute;
+    top: 50px; /* 距離頁面頂部的距離，可根據需要調整 */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: white;
+    z-index: 2; /* 確保標題位於背景之上 */
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intern {
+    width: 70%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.right ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    line-height: 1.8;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15%; /* 新增：向右移動 20px */
+    margin-top: -20px;
+}
+
+#soup {
+    scroll-margin-top: 100px; /* 根據你的 header 高度調整 */
+}
+html {
+    scroll-behavior: smooth;
+}
+.bow{
+    display:flex;
+}
+.bow .follow p {
+    text-indent: 2em;         /* 首行縮排兩個字 */
+    line-height: 1.8;         /* 行距設定讓段落更好閱讀 */
+    margin-bottom: 1em;       /* 段落與段落之間的距離 */
+    text-align: justify;      /* 文字左右對齊 */
+    white-space: normal;      /* 確保自動換行 */
+    max-width: 600px;         /* 限制最大寬度 */
+    word-wrap: break-word;    /* 遇到太長的單字自動斷行 */
+    white-space: pre-line;    /* 支援 HTML 中的換行符號（\n） */
+}
+
+.bow img {
+    width:50%;
+}
+.follow {
+    width:50%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.follow h2 {
+    font-size:40px;
+    margin-bottom: 30px;
+}
+.follow p {
+    text-align: center;
+    line-height: 2em;
+}
+
+#word {
+    scroll-margin-top: 100px; /* 根據你的 header 高度調整 */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.high{
+    background-color: #3c4e57ee;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.high p {
+    text-indent: 2em;         /* 首行縮排兩個字 */
+    line-height: 1.8;         /* 行距設定讓段落更好閱讀 */
+    margin-bottom: 1em;       /* 段落與段落之間的距離 */
+    text-align: justify;      /* 文字左右對齊 */
+    max-width: 600px;         /* 限制最大寬度 */
+    word-wrap: break-word;    /* 遇到太長的單字自動斷行 */
+    white-space: pre-line;    /* 支援 HTML 中的換行符號（\n） */
+}
+
+.high h2 {
+    font-size:40px;
+    margin-bottom: 30px;   
+    margin-top: -20px;
+}
+
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.menu {
+    display:none;
+}
+/* 響應式設計語法 */
+@media (max-width: 768px) {
+header ul {
+    display: none;
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.news h2 {
+    font-size: 36px;
+}
+
+.news p {
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.diss {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+}
+
+.overlay {
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.left, .right {
+    flex: none;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.right ul {
+    margin-left: 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.intern {
+    max-width: 80%;
+}
+
+.bow {
+    flex-direction: column;
+}
+
+.bow img, .follow {
+    width: 100%;
+}
+
+.follow h2 {
+    font-size: 28px;
+}
+
+.high h2 {
+    font-size: 28px;
+}
+.high p {
+    padding: 0 20px;
+}
+}
