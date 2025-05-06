@@ -224,7 +224,7 @@ header h1 {
     margin-bottom: 15px;
 }
 .product h3{
-    font-size: 28px;    
+    font-size: 28px !important;;    
     margin: 5px 0;
 }
 .product-list p {
