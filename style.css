@@ -224,13 +224,11 @@ header h1 {
     margin-bottom: 15px;
 }
 .product h3{
-    font-size: 15px;    
+    font-size: 28px;    
     margin: 5px 0;
 }
 
 .product-list p {
-    font-size: 10px;
-    line-height: 1.5em;
     padding: 0 10px;
 }
 }
