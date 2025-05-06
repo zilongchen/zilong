@@ -206,7 +206,7 @@ header h1 {
 }
 .info {
     width:100%;
-    padding:40px 0;
+    padding:10px 0;
 }
 .info h2 {
     font-size:30px;
@@ -224,11 +224,11 @@ header h1 {
     margin-bottom: 30px;
 }
 .product h3{
-    font-size: 25px;    
-    margin: 10px 0;
+    font-size: 20px;    
+    margin: 5px 0;
 }
 
 .product-list p {
-    padding: 0 7px;
+    padding: 0 5px;
 }
 }
