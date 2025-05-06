@@ -292,12 +292,22 @@ header ul {
     flex-direction: column;
 }
 
-.bow img, .follow {
+
+.bow img {
     width: 100%;
 }
 
+.follow {
+    width: 100%;
+    padding:20px 0;
+}
+    
 .follow h2 {
     font-size: 28px;
+}
+
+.follow p {
+    padding: 0 20px;
 }
 
 .high h2 {
